@@ -1,0 +1,15 @@
+.nav {
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  top: 55px;
+  left: 100px;
+  li {
+    margin-right: 80px;
+    a {
+      cursor: pointer;
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+}

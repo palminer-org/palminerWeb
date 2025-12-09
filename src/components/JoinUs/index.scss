@@ -1,0 +1,44 @@
+.join-us {
+  position: relative;
+  width: 100%;
+  height: 528px;
+  background: url('../../assets/join_us_bg.png') 50% 50% / cover no-repeat;
+  .join-us-line {
+    width: 100%;
+    height: 528px;
+    background: url('../../assets/join_us_line.png') 50% 50% / cover no-repeat;
+    opacity: 0.2;
+  }
+  .join_us_main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    // transform: translateX(-50%);
+    // bottom: 45px;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    .join_us_desc {
+      width: 774px;
+      height: auto;
+    }
+    strong {
+      font-size: 24px;
+      color: #030506;
+      margin: 60px auto 8px;
+    }
+    .join_us_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 270px;
+      height: 100px;
+      background: #fff;
+      img {
+        width: 213px;
+        height: 42px;
+      }
+    }
+  }
+}

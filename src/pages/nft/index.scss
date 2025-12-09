@@ -1,0 +1,83 @@
+.nft-page {
+  overflow: hidden;
+  width: 100%;
+  background: url('../../assets/scene_bg.png') 50% 0 / cover no-repeat;
+  .header {
+    width: 100%;
+    position: relative;
+    min-width: 1920px;
+  }
+  .content {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .tabs {
+    position: fixed;
+    top: 300px;
+    left: 125px;
+    .split {
+      position: absolute;
+      left: 48px;
+      top: 48px;
+      height: 385px;
+      width: 1px;
+      background-color: #fff;
+    }
+    .tab {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+      
+      &.active, &:hover {
+        span {
+          background-color: #fff;
+        }
+        h2 {
+          small, strong {
+            color: #fff;
+          }
+        }
+      }
+      span {
+        display: block;
+        position: relative;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background-color: rgba(28, 27, 29, 1);
+        border: 1px solid #fff;
+        box-sizing: border-box;
+        transition: all 0.5s ease-in-out;
+        img {
+          position: absolute;
+          top: -5px;
+          right: 0;
+          width: 67px;
+          height: 80px;
+        }
+      }
+      h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+        color: rgba(139, 139, 139, 1);
+        small {
+          font-size: 20px;
+          color: rgba(139, 139, 139, 1);
+          transition: all 0.5s ease-in-out;
+        }
+        strong {
+          font-size: 24px;
+          color: rgba(139, 139, 139, 1);
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+
+  }
+}
