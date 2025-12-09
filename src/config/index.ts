@@ -18,7 +18,7 @@ const isProduction = import.meta.env.VITE_ENV === 'production' || import.meta.en
 // Contract address mapping
 const contractAddressMap = {
   [bscTestnet.id]: '0x03De2b59EA8BCFc983c7886a381912d1E1e3aB72', // BSC Testnet
-  [bsc.id]: '0xc5E8D00f37c1d7cAfDd2265780D967796E3EE5B4', // BSC Mainnet
+  [bsc.id]: '0x10b6df783286a2517be0490daef16dcb960329da', // BSC Mainnet
 }
 
 // Select chain and contract address based on environment
