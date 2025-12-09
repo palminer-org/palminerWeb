@@ -20,3 +20,5 @@ Before merging to the latest branch, please verify that it runs normally in buil
 ## Others
 Tailwind configuration needs to be unified with the design team. API integration is expected to use useRequest. Open to suggestions.
 
+## Keywords
+BNB
