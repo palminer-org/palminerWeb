@@ -4,7 +4,12 @@
  * @LastEditors: wuqiang
  * @LastEditTime: 2024-06-03 00:54:32
 -->
-# React + TypeScript + Vite
+# Palminer
+A project built on **BNB Smart Chain (BSC)** and compatible with other EVM networks.
+
+## Supported Networks
+- **BNB Smart Chain Mainnet** (Chain ID: 56)
+- **BNB Smart Chain Testnet** (Chain ID: 97, test environment only)
 
 ## Scaffold
 [fresh-app/factore](https://fresh-app.github.io/fresh-vite-app-react-ts.html)
